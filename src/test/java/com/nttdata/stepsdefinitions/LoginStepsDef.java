@@ -26,6 +26,7 @@ public class LoginStepsDef {
         driver = getDriver();
         driver.get("https://www.saucedemo.com/");
         screenShot();
+
     }
     @Cuando("inicio sesión con las credenciales usuario: {string} y contraseña: {string}")
     public void inicio_sesión_con_las_credenciales_usuario_y_contraseña(String user, String password) {
