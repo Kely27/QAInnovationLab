@@ -7,9 +7,9 @@ Característica: Inicio de sesion en Sauce Labs Sample App
 
   @SauceLabsLogin @Smoke
   Escenario: Login exitoso con credenciales validas
-    Dado ingreso al aplicativo "saucelabs"
-    Cuando ingreso el usuario "standard_user"
-    Y ingreso la clave "secret_sauce"
-    Y hago clic en LOGIN
-    Entonces valido el login OK
-    Y cierro el aplicativo "com.swaglabsmobileapp"
+    Dado ingreso al aplicativo "miApp"
+    Cuando ingreso el usuario1 "standard_user"
+    Y ingreso la clave1 "secret_sauce"
+    Y hago clic en boton login
+    Entonces valido el login correctamente
+    Y cierro el aplicativo "com.mi.paquete"
