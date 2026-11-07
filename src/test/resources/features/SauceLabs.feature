@@ -8,8 +8,8 @@ Característica: Inicio de sesion en Sauce Labs Sample App
   @SauceLabsLogin @Smoke
   Escenario: Login exitoso con credenciales validas
     Dado ingreso al aplicativo "miApp"
-    Cuando ingreso el usuario1 "standard_user"
-    Y ingreso la clave1 "secret_sauce"
+    Cuando ingreso el usuario1 "bod@example.com"
+    Y ingreso la clave1 "10203040"
     Y hago clic en boton login
     Entonces valido el login correctamente
     Y cierro el aplicativo "com.mi.paquete"

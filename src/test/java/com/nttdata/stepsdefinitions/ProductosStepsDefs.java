@@ -27,7 +27,7 @@ public class ProductosStepsDefs {
     boolean visible = producto1Steps.pantallaProductos();
     assertTrue("La galería de productos no cargó correctamente", visible);}
 
-    @When("Selecciono el primer producto{string}")
+    @When("Selecciono el primer producto {string}")
     public void Seleccion_el_primer_producto(String nombreProducto) {
         producto1Steps.cantidadPrimerProducto();
     }
@@ -43,7 +43,7 @@ public class ProductosStepsDefs {
         ScreenshotAttacher.attach(scenario, "Despues selecionar el producto");
     }
 
-    @And("retorno a la lista de productos ")
+    @And("retorno a la lista de productos")
     public void retorno_a_la_lista_de_productos() {
         producto1Steps.volverListaProducto();
         ScreenshotAttacher.attach(scenario, "Despues de hacer login");

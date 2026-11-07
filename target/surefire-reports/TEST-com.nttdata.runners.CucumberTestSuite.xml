@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.nttdata.runners.CucumberTestSuite" time="0.431" tests="1" errors="1" skipped="0" failures="0" flakes="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.nttdata.runners.CucumberTestSuite" time="6.953" tests="1" errors="1" skipped="0" failures="0" flakes="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="PE"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.12.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\KELLY\AppData\Local\Temp\surefire6138373678294498132\surefirebooter-20261106222944225_3.jar C:\Users\KELLY\AppData\Local\Temp\surefire6138373678294498132 2026-11-06T22-29-43_837-jvmRun1 surefire-20261106222944225_1tmp surefire_0-20261106222944225_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\KELLY\AppData\Local\Temp\surefire5992953081018180871\surefirebooter-20261107002854406_3.jar C:\Users\KELLY\AppData\Local\Temp\surefire5992953081018180871 2026-11-07T00-28-54_195-jvmRun1 surefire-20261107002854406_1tmp surefire_0-20261107002854406_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Caso practico\QAInnovationLab\target\test-classes;D:\Caso practico\QAInnovationLab\target\classes;C:\Users\KELLY\.m2\repository\io\appium\java-client\10.1.1\java-client-10.1.1.jar;C:\Users\KELLY\.m2\repository\org\seleniumhq\selenium\selenium-api\4.52.0\selenium-api-4.52.0.jar;C:\Users\KELLY\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.52.0\selenium-remote-driver-4.52.0.jar;C:\Users\KELLY\.m2\repository\com\google\guava\guava\33.7.2-jre\guava-33.7.2-jre.jar;C:\Users\KELLY\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\KELLY\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\KELLY\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\KELLY\.m2\repository\io\opentelemetry\opentelemetry-api\1.67.0\opentelemetry-api-1.67.0.jar;C:\Users\KELLY\.m2\repository\io\opentelemetry\opentelemetry-context\1.67.0\opentelemetry-context-1.67.0.jar;C:\Users\KELLY\.m2\repository\io\opentelemetry\opentelemetry-common\1.67.0\opentelemetry-common-1.67.0.jar;C:\Users\KELLY\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.67.0\opentelemetry-exporter-logging-1.67.0.jar;C:\Users\KELLY\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.67.0\opentelemetry-sdk-common-1.67.0.jar;C:\Users\KELLY\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.67.0\opentelemetry-sdk-extension-autoconfigure-spi-1.67.0.jar;C:\Users\KELLY\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.67.0\opentelemetry-sdk-extension-autoconfigure-1.67.0.jar;C:\Users\KELLY\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.67.0\opentelemetry-sdk-trace-1.67.0.jar;C:\Users\KELLY\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.67.0\opentelemetry-sdk-1.67.0.jar;C:\Users\KELLY\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.67.0\opentelemetry-sdk-metrics-1.67.0.jar;C:\Users\KELLY\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.67.0\opentelemetry-sdk-logs-1.67.0.jar;C:\Users\KELLY\.m2\repository\net\bytebuddy\byte-buddy\1.18.15\byte-buddy-1.18.15.jar;C:\Users\KELLY\.m2\repository\org\jetbrains\annotations\26.1.0\annotations-26.1.0.jar;C:\Users\KELLY\.m2\repository\org\seleniumhq\selenium\selenium-http\4.52.0\selenium-http-4.52.0.jar;C:\Users\KELLY\.m2\repository\org\seleniumhq\selenium\selenium-json\4.52.0\selenium-json-4.52.0.jar;C:\Users\KELLY\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.52.0\selenium-manager-4.52.0.jar;C:\Users\KELLY\.m2\repository\org\seleniumhq\selenium\selenium-os\4.52.0\selenium-os-4.52.0.jar;C:\Users\KELLY\.m2\repository\org\seleniumhq\selenium\selenium-support\4.52.0\selenium-support-4.52.0.jar;C:\Users\KELLY\.m2\repository\com\google\code\gson\gson\2.13.2\gson-2.13.2.jar;C:\Users\KELLY\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\KELLY\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\KELLY\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\KELLY\.m2\repository\org\seleniumhq\selenium\selenium-java\4.43.0\selenium-java-4.43.0.jar;C:\Users\KELLY\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.43.0\selenium-chrome-driver-4.43.0.jar;C:\Users\KELLY\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\KELLY\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.43.0\selenium-chromium-driver-4.43.0.jar;C:\Users\KELLY\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v145\4.43.0\selenium-devtools-v145-4.43.0.jar;C:\Users\KELLY\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v146\4.43.0\selenium-devtools-v146-4.43.0.jar;C:\Users\KELLY\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v147\4.43.0\selenium-devtools-v147-4.43.0.jar;C:\Users\KELLY\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.43.0\selenium-edge-driver-4.43.0.jar;C:\Users\KELLY\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.43.0\selenium-firefox-driver-4.43.0.jar;C:\Users\KELLY\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.43.0\selenium-ie-driver-4.43.0.jar;C:\Users\KELLY\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.43.0\selenium-safari-driver-4.43.0.jar;C:\Users\KELLY\.m2\repository\io\cucumber\cucumber-java\7.34.4\cucumber-java-7.34.4.jar;C:\Users\KELLY\.m2\repository\io\cucumber\cucumber-core\7.34.4\cucumber-core-7.34.4.jar;C:\Users\KELLY\.m2\repository\io\cucumber\cucumber-gherkin\7.34.4\cucumber-gherkin-7.34.4.jar;C:\Users\KELLY\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.34.4\cucumber-gherkin-messages-7.34.4.jar;C:\Users\KELLY\.m2\repository\io\cucumber\gherkin\36.1.0\gherkin-36.1.0.jar;C:\Users\KELLY\.m2\repository\io\cucumber\messages\30.1.0\messages-30.1.0.jar;C:\Users\KELLY\.m2\repository\io\cucumber\messages-ndjson\0.3.4\messages-ndjson-0.3.4.jar;C:\Users\KELLY\.m2\repository\io\cucumber\pretty-formatter\2.4.1\pretty-formatter-2.4.1.jar;C:\Users\KELLY\.m2\repository\io\cucumber\query\14.7.0\query-14.7.0.jar;C:\Users\KELLY\.m2\repository\io\cucumber\teamcity-formatter\0.2.0\teamcity-formatter-0.2.0.jar;C:\Users\KELLY\.m2\repository\io\cucumber\testng-xml-formatter\0.7.0\testng-xml-formatter-0.7.0.jar;C:\Users\KELLY\.m2\repository\io\cucumber\usage-formatter\0.1.0\usage-formatter-0.1.0.jar;C:\Users\KELLY\.m2\repository\io\cucumber\tag-expressions\8.1.0\tag-expressions-8.1.0.jar;C:\Users\KELLY\.m2\repository\io\cucumber\cucumber-expressions\18.1.0\cucumber-expressions-18.1.0.jar;C:\Users\KELLY\.m2\repository\io\cucumber\cucumber-json-formatter\0.3.2\cucumber-json-formatter-0.3.2.jar;C:\Users\KELLY\.m2\repository\io\cucumber\datatable\7.34.4\datatable-7.34.4.jar;C:\Users\KELLY\.m2\repository\io\cucumber\cucumber-plugin\7.34.4\cucumber-plugin-7.34.4.jar;C:\Users\KELLY\.m2\repository\io\cucumber\docstring\7.34.4\docstring-7.34.4.jar;C:\Users\KELLY\.m2\repository\io\cucumber\html-formatter\22.3.0\html-formatter-22.3.0.jar;C:\Users\KELLY\.m2\repository\io\cucumber\junit-xml-formatter\0.11.0\junit-xml-formatter-0.11.0.jar;C:\Users\KELLY\.m2\repository\io\cucumber\ci-environment\12.0.0\ci-environment-12.0.0.jar;C:\Users\KELLY\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\KELLY\.m2\repository\io\cucumber\cucumber-junit\7.34.4\cucumber-junit-7.34.4.jar;C:\Users\KELLY\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\KELLY\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -29,7 +29,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\KELLY\AppData\Local\Temp\surefire6138373678294498132\surefirebooter-20261106222944225_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\KELLY\AppData\Local\Temp\surefire5992953081018180871\surefirebooter-20261107002854406_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.12.1+1-LTS-4"/>
@@ -44,7 +44,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\KELLY\AppData\Local\Temp\"/>
     <property name="java.version" value="21.0.12.1"/>
-    <property name="cucumber.filter.tags" value="@Navegacion"/>
+    <property name="cucumber.filter.tags" value="@SauceLabsLogin"/>
     <property name="user.dir" value="D:\Caso practico\QAInnovationLab"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
@@ -58,53 +58,113 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="initializationError" classname="com.nttdata.runners.CucumberTestSuite" time="0.009">
-    <error message="Failed to parse resource at: file:///D:/Caso%20practico/QAInnovationLab/src/test/resources/features/Proctucto1.feature&#10;(2:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got &apos;Como usuario de la app movil me encuentro dentro&apos;&#10;(3:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got &apos;de la plicación SauceLabs quiero agregar un producto&apos;&#10;(4:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got &apos;y que se muestre en el carrito de compras&apos;&#10;(7:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got &apos;Dado estoy en la aplicación &quot;miApp&quot;&apos;&#10;(8:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got &apos;Y valido que carguen correctamente los productos en la galeria&apos;&#10;(9:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got &apos;Cuando Selecciono el primer producto &quot;Sauce Labs Backpack&quot;&apos;&#10;(10:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got &apos;Y Selecciono la cantidad del producto&apos;&#10;(11:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got &apos;Y agrego el producto al carrito&apos;&#10;(12:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got &apos;Y retorno a la lista de productos&apos;&#10;(13:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got &apos;Entonces valido el carrito de compra actualice correctamente&apos;&#10;(14:0): unexpected end of file, expected: #TagLine, #FeatureLine, #Comment, #Empty" type="io.cucumber.core.gherkin.FeatureParserException"><![CDATA[io.cucumber.core.gherkin.FeatureParserException: 
-Failed to parse resource at: file:///D:/Caso%20practico/QAInnovationLab/src/test/resources/features/Proctucto1.feature
-(2:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Como usuario de la app movil me encuentro dentro'
-(3:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'de la plicación SauceLabs quiero agregar un producto'
-(4:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'y que se muestre en el carrito de compras'
-(7:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Dado estoy en la aplicación "miApp"'
-(8:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Y valido que carguen correctamente los productos en la galeria'
-(9:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Cuando Selecciono el primer producto "Sauce Labs Backpack"'
-(10:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Y Selecciono la cantidad del producto'
-(11:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Y agrego el producto al carrito'
-(12:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Y retorno a la lista de productos'
-(13:1): expected: #TagLine, #FeatureLine, #Comment, #Empty, got 'Entonces valido el carrito de compra actualice correctamente'
-(14:0): unexpected end of file, expected: #TagLine, #FeatureLine, #Comment, #Empty
-	at io.cucumber.core.gherkin.messages.GherkinMessagesFeatureParser.parse(GherkinMessagesFeatureParser.java:56)
-	at io.cucumber.core.feature.FeatureParser.parseResource(FeatureParser.java:46)
-	at java.base/java.util.function.BiFunction.lambda$andThen$0(BiFunction.java:70)
-	at io.cucumber.core.resource.ResourceScanner.lambda$processResource$1(ResourceScanner.java:79)
-	at io.cucumber.core.resource.PathScanner$ResourceFileVisitor.visitFile(PathScanner.java:82)
-	at io.cucumber.core.resource.PathScanner$ResourceFileVisitor.visitFile(PathScanner.java:67)
-	at java.base/java.nio.file.Files.walkFileTree(Files.java:2786)
-	at io.cucumber.core.resource.PathScanner.findResourcesForPath(PathScanner.java:61)
-	at io.cucumber.core.resource.PathScanner.findResourcesForPath(PathScanner.java:54)
-	at io.cucumber.core.resource.PathScanner.findResourcesForUri(PathScanner.java:34)
-	at io.cucumber.core.resource.ResourceScanner.findResourcesForUri(ResourceScanner.java:61)
-	at io.cucumber.core.resource.ResourceScanner.scanForResourcesUri(ResourceScanner.java:134)
-	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.loadFeatures(FeaturePathFeatureSupplier.java:62)
-	at io.cucumber.core.runtime.FeaturePathFeatureSupplier.get(FeaturePathFeatureSupplier.java:45)
-	at io.cucumber.junit.Cucumber.<init>(Cucumber.java:162)
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.junit.internal.builders.AnnotatedBuilder.buildRunner(AnnotatedBuilder.java:104)
-	at org.junit.internal.builders.AnnotatedBuilder.runnerForClass(AnnotatedBuilder.java:86)
-	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
-	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)
-	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
-	at org.junit.internal.requests.ClassRequest.createRunner(ClassRequest.java:28)
-	at org.junit.internal.requests.MemoizingRequest.getRunner(MemoizingRequest.java:19)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:314)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+  <testcase name="Login exitoso con credenciales validas" classname="Inicio de sesion en Sauce Labs Sample App" time="6.112">
+    <error message="Could not start a new session. Response code 500. Message: Cannot start the &apos;com.saucelabs.mydemoapp.android&apos; application. Consider checking the driver&apos;s troubleshooting documentation. Original error: Error executing adbExec. Original error: &apos;Command &apos;&apos;C:\Users\KELLY\AppData\Local\Android\Sdk\platform-tools\adb.exe&apos; -P 5037 -s ZY22MFFJRX shell am start-activity -W -n com.saucelabs.mydemoapp.android/com.saucelabs.mydemoapp.android.view.activities.MainActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000&apos; exited with code 255&apos;; Command output: &#10;Exception occurred while executing &apos;start-activity&apos;:&#10;java.lang.SecurityException: Permission Denial: starting Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 xflg=0x4 cmp=com.saucelabs.mydemoapp.android/.view.activities.MainActivity } from null (pid=6823, uid=2000) not exported from uid 10443&#10;	at com.android.server.wm.ActivityTaskSupervisor.checkStartAnyActivityPermission(ActivityTaskSupervisor.java:1328)&#10;	at com.android.server.wm.ActivityStarter.executeRequest(ActivityStarter.java:1528)&#10;	at com.android.server.wm.ActivityStarter.execute(ActivityStarter.java:1082)&#10;	at com.android.server.wm.ActivityTaskManagerService.startActivityAndWait(ActivityTaskManagerService.java:1848)&#10;	at com.android.server.am.ActivityManagerService.startActivityAndWait(ActivityManagerService.java:3382)&#10;	at com.android.server.am.ActivityManagerShellCommand.runStartActivity(ActivityManagerShellCommand.java:875)&#10;	at com.android.server.am.ActivityManagerShellCommand.onCommand(ActivityManagerShellCommand.java:263)&#10;	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)&#10;	at android.os.ShellCommand.exec(ShellCommand.java:38)&#10;	at com.android.server.am.ActivityManagerService.onShellCommand(ActivityManagerService.java:10844)&#10;	at android.os.Binder.shellCommand(Binder.java:1162)&#10;	at android.os.Binder.onTransact(Binder.java:964)&#10;	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:5871)&#10;	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2849)&#10;	at android.os.Binder.execTransactInternal(Binder.java:1452)&#10;	at android.os.Binder.execTransact(Binder.java:1376)&#10; &#10;Host info: host: &apos;DESKTOP-9J9OI3T&apos;, ip: &apos;192.168.18.142&apos;&#10;Build info: version: &apos;4.52.0&apos;, revision: &apos;5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.12.1&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Command: [null, newSession {capabilities=[Capabilities {appium:app: C:/Users/KELLY/Desktop/mda-..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: motorola edge 60 fusion, appium:disableWindowAnimation: true, appium:forceAppLaunch: false, appium:newCommandTimeout: 300, appium:noReset: false, appium:platformVersion: 16, appium:settings[waitForIdleTimeout]: 1000, appium:skipLogcatCapture: true, appium:udid: ZY22MFFJRX, platformName: ANDROID}]}]&#10;Capabilities {appium:app: C:/Users/KELLY/Desktop/mda-..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: motorola edge 60 fusion, appium:disableWindowAnimation: true, appium:forceAppLaunch: false, appium:newCommandTimeout: 300, appium:noReset: false, appium:platformVersion: 16, appium:settings[waitForIdleTimeout]: 1000, appium:skipLogcatCapture: true, appium:udid: ZY22MFFJRX, platformName: ANDROID}" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: Cannot start the 'com.saucelabs.mydemoapp.android' application. Consider checking the driver's troubleshooting documentation. Original error: Error executing adbExec. Original error: 'Command ''C:\Users\KELLY\AppData\Local\Android\Sdk\platform-tools\adb.exe' -P 5037 -s ZY22MFFJRX shell am start-activity -W -n com.saucelabs.mydemoapp.android/com.saucelabs.mydemoapp.android.view.activities.MainActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000' exited with code 255'; Command output: 
+Exception occurred while executing 'start-activity':
+java.lang.SecurityException: Permission Denial: starting Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 xflg=0x4 cmp=com.saucelabs.mydemoapp.android/.view.activities.MainActivity } from null (pid=6823, uid=2000) not exported from uid 10443
+	at com.android.server.wm.ActivityTaskSupervisor.checkStartAnyActivityPermission(ActivityTaskSupervisor.java:1328)
+	at com.android.server.wm.ActivityStarter.executeRequest(ActivityStarter.java:1528)
+	at com.android.server.wm.ActivityStarter.execute(ActivityStarter.java:1082)
+	at com.android.server.wm.ActivityTaskManagerService.startActivityAndWait(ActivityTaskManagerService.java:1848)
+	at com.android.server.am.ActivityManagerService.startActivityAndWait(ActivityManagerService.java:3382)
+	at com.android.server.am.ActivityManagerShellCommand.runStartActivity(ActivityManagerShellCommand.java:875)
+	at com.android.server.am.ActivityManagerShellCommand.onCommand(ActivityManagerShellCommand.java:263)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.server.am.ActivityManagerService.onShellCommand(ActivityManagerService.java:10844)
+	at android.os.Binder.shellCommand(Binder.java:1162)
+	at android.os.Binder.onTransact(Binder.java:964)
+	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:5871)
+	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2849)
+	at android.os.Binder.execTransactInternal(Binder.java:1452)
+	at android.os.Binder.execTransact(Binder.java:1376)
+ 
+Host info: host: 'DESKTOP-9J9OI3T', ip: '192.168.18.142'
+Build info: version: '4.52.0', revision: '5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [null, newSession {capabilities=[Capabilities {appium:app: C:/Users/KELLY/Desktop/mda-..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: motorola edge 60 fusion, appium:disableWindowAnimation: true, appium:forceAppLaunch: false, appium:newCommandTimeout: 300, appium:noReset: false, appium:platformVersion: 16, appium:settings[waitForIdleTimeout]: 1000, appium:skipLogcatCapture: true, appium:udid: ZY22MFFJRX, platformName: ANDROID}]}]
+Capabilities {appium:app: C:/Users/KELLY/Desktop/mda-..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: motorola edge 60 fusion, appium:disableWindowAnimation: true, appium:forceAppLaunch: false, appium:newCommandTimeout: 300, appium:noReset: false, appium:platformVersion: 16, appium:settings[waitForIdleTimeout]: 1000, appium:skipLogcatCapture: true, appium:udid: ZY22MFFJRX, platformName: ANDROID}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:76)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:705)
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:260)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:224)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:108)
+	at com.nttdata.screens.AppConfigScreen.iniciarAplicacion(AppConfigScreen.java:62)
+	at com.nttdata.steps.AppConfigSteps.iniciarAplicacion(AppConfigSteps.java:19)
+	at com.nttdata.stepsdefinitions.AppConfigStepsDefs.ingreso_al_aplicativo(AppConfigStepsDefs.java:38)
+	at ✽.ingreso al aplicativo "miApp"(file:///D:/Caso%20practico/QAInnovationLab/src/test/resources/features/SauceLabs.feature:10)
 ]]></error>
+    <system-out><![CDATA[
+@SauceLabsLogin @Smoke
+Escenario: Login exitoso con credenciales validas # src/test/resources/features/SauceLabs.feature:9
+========================================
+[Hooks] Iniciando escenario: Login exitoso con credenciales validas
+========================================
+[AppConfigStepsDefs] Iniciando aplicativo: miApp
+[AppConfigSteps] Solicitando inicio de aplicacion (miApp.properties)
+[AppConfigScreen] Leyendo configuracion desde: miApp.properties
+[AppConfigScreen] Construyendo capabilities...
+[AppConfigScreen] Conectando a Appium Server en: http://127.0.0.1:4723/
+  ✘ Dado ingreso al aplicativo "miApp"            # com.nttdata.stepsdefinitions.AppConfigStepsDefs.ingreso_al_aplicativo(java.lang.String)
+        org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Cannot start the 'com.saucelabs.mydemoapp.android' application. Consider checking the driver's troubleshooting documentation. Original error: Error executing adbExec. Original error: 'Command ''C:\Users\KELLY\AppData\Local\Android\Sdk\platform-tools\adb.exe' -P 5037 -s ZY22MFFJRX shell am start-activity -W -n com.saucelabs.mydemoapp.android/com.saucelabs.mydemoapp.android.view.activities.MainActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000' exited with code 255'; Command output: 
+        Exception occurred while executing 'start-activity':
+        java.lang.SecurityException: Permission Denial: starting Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 xflg=0x4 cmp=com.saucelabs.mydemoapp.android/.view.activities.MainActivity } from null (pid=6823, uid=2000) not exported from uid 10443
+        	at com.android.server.wm.ActivityTaskSupervisor.checkStartAnyActivityPermission(ActivityTaskSupervisor.java:1328)
+        	at com.android.server.wm.ActivityStarter.executeRequest(ActivityStarter.java:1528)
+        	at com.android.server.wm.ActivityStarter.execute(ActivityStarter.java:1082)
+        	at com.android.server.wm.ActivityTaskManagerService.startActivityAndWait(ActivityTaskManagerService.java:1848)
+        	at com.android.server.am.ActivityManagerService.startActivityAndWait(ActivityManagerService.java:3382)
+        	at com.android.server.am.ActivityManagerShellCommand.runStartActivity(ActivityManagerShellCommand.java:875)
+        	at com.android.server.am.ActivityManagerShellCommand.onCommand(ActivityManagerShellCommand.java:263)
+        	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+        	at android.os.ShellCommand.exec(ShellCommand.java:38)
+        	at com.android.server.am.ActivityManagerService.onShellCommand(ActivityManagerService.java:10844)
+        	at android.os.Binder.shellCommand(Binder.java:1162)
+        	at android.os.Binder.onTransact(Binder.java:964)
+        	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:5871)
+        	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2849)
+        	at android.os.Binder.execTransactInternal(Binder.java:1452)
+        	at android.os.Binder.execTransact(Binder.java:1376)
+         
+        Host info: host: 'DESKTOP-9J9OI3T', ip: '192.168.18.142'
+        Build info: version: '4.52.0', revision: '5b37fd4 5b37fd4d98c08d6a43a0790417f91b8f6f32fb5c'
+        System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12.1'
+        Driver info: io.appium.java_client.android.AndroidDriver
+        Command: [null, newSession {capabilities=[Capabilities {appium:app: C:/Users/KELLY/Desktop/mda-..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: motorola edge 60 fusion, appium:disableWindowAnimation: true, appium:forceAppLaunch: false, appium:newCommandTimeout: 300, appium:noReset: false, appium:platformVersion: 16, appium:settings[waitForIdleTimeout]: 1000, appium:skipLogcatCapture: true, appium:udid: ZY22MFFJRX, platformName: ANDROID}]}]
+        Capabilities {appium:app: C:/Users/KELLY/Desktop/mda-..., appium:appActivity: com.saucelabs.mydemoapp.and..., appium:appPackage: com.saucelabs.mydemoapp.and..., appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:deviceName: motorola edge 60 fusion, appium:disableWindowAnimation: true, appium:forceAppLaunch: false, appium:newCommandTimeout: 300, appium:noReset: false, appium:platformVersion: 16, appium:settings[waitForIdleTimeout]: 1000, appium:skipLogcatCapture: true, appium:udid: ZY22MFFJRX, platformName: ANDROID}
+        	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:115)
+        	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:76)
+        	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+        	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:178)
+        	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:243)
+        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:705)
+        	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:308)
+        	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:260)
+        	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:224)
+        	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98)
+        	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
+        	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:108)
+        	at com.nttdata.screens.AppConfigScreen.iniciarAplicacion(AppConfigScreen.java:62)
+        	at com.nttdata.steps.AppConfigSteps.iniciarAplicacion(AppConfigSteps.java:19)
+        	at com.nttdata.stepsdefinitions.AppConfigStepsDefs.ingreso_al_aplicativo(AppConfigStepsDefs.java:38)
+        	at ✽.ingreso al aplicativo "miApp"(file:///D:/Caso%20practico/QAInnovationLab/src/test/resources/features/SauceLabs.feature:10)
+  ↷ Cuando ingreso el usuario1 "bod@example.com"  # com.nttdata.stepsdefinitions.MiAppStepsDefs.ingreso_el_usuario1(java.lang.String)
+  ↷ Y ingreso la clave1 "10203040"                # com.nttdata.stepsdefinitions.MiAppStepsDefs.ingreso_la_clave1(java.lang.String)
+  ↷ Y hago clic en boton login                    # com.nttdata.stepsdefinitions.MiAppStepsDefs.hago_clic_en_boton_login()
+  ↷ Entonces valido el login correctamente        # com.nttdata.stepsdefinitions.MiAppStepsDefs.valido_el_login_correctamente()
+  ↷ Y cierro el aplicativo "com.mi.paquete"       # com.nttdata.stepsdefinitions.AppConfigStepsDefs.cierro_el_aplicativo(java.lang.String)
+[Hooks] Escenario 'Login exitoso con credenciales validas' finalizo: FALLIDO
+[AppConfigScreen] No hay sesion activa, no se puede tomar screenshot.
+[ScreenshotAttacher] No se genero evidencia para: Estado final (FALLO)
+]]></system-out>
   </testcase>
 </testsuite>

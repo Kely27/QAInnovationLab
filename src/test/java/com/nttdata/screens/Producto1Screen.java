@@ -14,9 +14,7 @@ import static com.nttdata.screens.BaseScreen.TIMEOUT;
 
 public class Producto1Screen {
 
-    AndroidDriver driver = getDriver();
-
-private WebElement esperar(By localizador) {
+    private WebElement esperar(By localizador) {
     WebDriverWait wait = new WebDriverWait(getDriver(), TIMEOUT);
     return wait.until(ExpectedConditions.presenceOfElementLocated(localizador));
     }

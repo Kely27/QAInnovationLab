@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
                 "com.nttdata.stepsdefinitions",
                 "com.nttdata.hooks"
         },
-        tags = "@Smoke",
+        tags = "@SauceLabsLogin",
         plugin = {
                 "pretty",
                 "html:target/cucumber-report.html",

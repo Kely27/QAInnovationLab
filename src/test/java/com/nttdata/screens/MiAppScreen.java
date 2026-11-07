@@ -13,9 +13,7 @@ import static com.nttdata.screens.AppConfigScreen.getDriver;
 
 public class MiAppScreen {
 
-    AndroidDriver driver = getDriver();
-
-    private static final Duration TIMEOUT = Duration.ofSeconds(20);
+        private static final Duration TIMEOUT = Duration.ofSeconds(20);
 
     private final By txtUsuario =
             AppiumBy.xpath("//android.widget.EditText[@resource-id=\"com.saucelabs.mydemoapp.android:id/nameET\"]");
